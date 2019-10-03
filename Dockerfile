@@ -1,4 +1,4 @@
-FROM zaoqi/archlinux-rolling
+FROM zaoqi/archlinux
 RUN pacman -Syu --noconfirm && pacman -Scc --noconfirm
 
 FROM scratch
