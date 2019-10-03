@@ -1,4 +1,4 @@
-FROM zaoqi/archlinux
+FROM zaoqi/archlinux-rolling-docker
 RUN pacman -Syu --noconfirm && pacman -Scc --noconfirm
 
 FROM scratch
